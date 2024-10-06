@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p>
+        <button
+        onclick="
+        num=num+1;
+        console.log(num);
+        "
+        
+        >1</button>
+        <button
+        onclick="
+        num=num+2;
+        console.log(num);
+        "
+        >2</button>
+        <button  onclick="
+        num=num+3;
+        console.log(num);
+        "
+        >3</button>
+        <button  onclick="
+        num=num+'+';
+        console.log(num);
+        "
+
+        >+</button>
+    </p>
+    <p>
+        <button  onclick="
+        num=num+4;
+        console.log(num);
+        ">4</button>
+        <button  onclick="
+        num=num+5;
+        console.log(num);
+        ">5</button>
+        <button  onclick="
+        num=num+6;
+        console.log(num);
+        ">6</button>
+        <button onclick="
+        num=num+'-';
+        console.log(num);
+        ">-</button>
+    </p>
+    <p>
+        <button  onclick="
+        num=num+7;
+        console.log(num);
+        ">7</button>
+        <button  onclick="
+        num=num+8;
+        console.log(num);
+        ">8</button>
+        <button  onclick="
+        num=num+9;
+        console.log(num);
+        ">9</button>
+        <button onclick="
+        num=num+'*';
+        console.log(num);
+        ">*</button>
+    </p>
+    <p>
+        <button  onclick="
+        num=num+0;
+        console.log(num);
+        ">0</button>
+        <button  onclick="
+        num=num+'.';
+        console.log(num);
+        ">.</button>
+        <button onclick="
+        num=eval(num);
+        console.log(num);
+        ">=</button>
+        <button onclick="
+        num=num+'/';
+        console.log(num);
+        ">/</button>
+    </p>
+    <p>
+        <button onclick="
+        num='';
+        console.log('Cleared');
+        ">clear</button>
+    </p>
+
+    <script>
+        let num = '';
+    </script>
+</body>
+</html>
