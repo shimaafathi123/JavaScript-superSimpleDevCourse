@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-scissor</title>
+</head>
+<body>
+    <button onclick="
+    let randomGenerate = Math.random();
+    let computerGenerate ='';
+
+    if(randomGenerate >=0 && randomGenerate<=1/3){
+    computerGenerate = 'Rock';
+    }
+    else if(randomGenerate >=1/3 && randomGenerate<=2/3){
+    computerGenerate = 'Paper';
+    }
+    else if(randomGenerate >=2/3){
+    computerGenerate = 'Scissor';
+    }
+    if(computerGenerate =='Rock'){
+    alert(`Computer choose ${computerGenerate} an you choose Rock so TIE`);
+    }
+    else if(computerGenerate == 'Paper'){
+    alert(`Computer choose ${computerGenerate} an you choose Rock so YOU LOSE`);
+    }
+    else{
+    alert(`Computer choose ${computerGenerate} an you choose Rock so WIN`);
+    }
+    console.log(computerGenerate);
+    ">Rock</button>
+    <button  onclick="
+    let randomGenerate = Math.random();
+    let computerGenerate ='';
+
+    if(randomGenerate >=0 && randomGenerate<=1/3){
+    computerGenerate = 'Rock';
+    }
+    else if(randomGenerate >=1/3 && randomGenerate<=2/3){
+    computerGenerate = 'Paper';
+    }
+    else if(randomGenerate >=2/3){
+    computerGenerate = 'Scissor';
+    }
+    if(computerGenerate =='Rock'){
+    alert(`Computer choose ${computerGenerate} an you choose Paper so YOU WIN`);
+    }
+    else if(computerGenerate == 'Paper'){
+    alert(`Computer choose ${computerGenerate} an you choose Paper so TIE`);
+    }
+    else{
+    alert(`Computer choose ${computerGenerate} an you choose Paper so YOU LOSE`);
+    }
+    console.log(computerGenerate);
+    ">Paper</button>
+    <button onclick="
+    let randomGenerate = Math.random();
+    let computerGenerate ='';
+
+    if(randomGenerate >=0 && randomGenerate<=1/3){
+    computerGenerate = 'Rock';
+    }
+    else if(randomGenerate >=1/3 && randomGenerate<=2/3){
+    computerGenerate = 'Paper';
+    }
+    else if(randomGenerate >=2/3){
+    computerGenerate = 'Scissor';
+    }
+    if(computerGenerate =='Rock'){
+    alert(`Computer choose ${computerGenerate} an you choose scissor so YOU LOSE`);
+    }
+    else if(computerGenerate == 'Paper'){
+    alert(`Computer choose ${computerGenerate} an you choose scissor YOU WIN`);
+    }
+    else{
+    alert(`Computer choose ${computerGenerate} an you choose scissor so TIE`);
+    }
+    console.log(computerGenerate);
+    ">scissor</button>
+
+    <script>
+         
+    </script>
+</body>
+</html>
